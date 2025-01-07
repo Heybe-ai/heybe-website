@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Website window -->
+  <rect x="8" y="8" width="32" height="48" rx="2" stroke="#4A5568" stroke-width="2" fill="white"/>
+  <!-- Browser bar -->
+  <rect x="8" y="8" width="32" height="6" rx="2" fill="#2D3748"/>
+  <!-- Browser dots -->
+  <circle cx="12" cy="11" r="1" fill="white"/>
+  <circle cx="16" cy="11" r="1" fill="white"/>
+  <circle cx="20" cy="11" r="1" fill="white"/>
+  <!-- Website content lines -->
+  <rect x="12" y="18" width="24" height="2" rx="1" fill="#4A5568"/>
+  <rect x="12" y="24" width="20" height="2" rx="1" fill="#4A5568"/>
+  <rect x="12" y="30" width="16" height="2" rx="1" fill="#4A5568"/>
+  <!-- Social post card -->
+  <rect x="24" y="24" width="32" height="32" rx="2" stroke="#4A5568" stroke-width="2" fill="white"/>
+  <!-- Social post content -->
+  <rect x="28" y="28" width="24" height="2" rx="1" fill="#2D3748"/>
+  <rect x="28" y="34" width="20" height="2" rx="1" fill="#2D3748"/>
+  <!-- Transform arrow -->
+  <path d="M44 16 L52 24 L44 32" stroke="#4A5568" stroke-width="2" fill="none"/>
+  <line x1="36" y1="24" x2="51" y2="24" stroke="#4A5568" stroke-width="2"/>
+</svg> 

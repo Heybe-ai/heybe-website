@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Device frame -->
+  <rect x="8" y="8" width="32" height="32" rx="2" stroke="#4A5568" stroke-width="2" fill="none"/>
+  <!-- Screen elements -->
+  <rect x="12" y="12" width="24" height="6" rx="1" fill="#2D3748"/>
+  <rect x="12" y="22" width="10" height="14" rx="1" fill="#4A5568"/>
+  <rect x="26" y="22" width="10" height="14" rx="1" fill="#4A5568"/>
+  <!-- Interactive elements -->
+  <circle cx="17" cy="15" r="1.5" fill="white"/>
+  <circle cx="22" cy="15" r="1.5" fill="white"/>
+  <circle cx="27" cy="15" r="1.5" fill="white"/>
+  <!-- Gesture indicator -->
+  <path d="M14 40 C20 36 28 36 34 40" stroke="#4A5568" stroke-width="2" fill="none"/>
+</svg> 

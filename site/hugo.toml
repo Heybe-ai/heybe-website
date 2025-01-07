@@ -1,12 +1,39 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "Kaldi"
+title = "Heybe.ai - AI Tools and Services for the Modern Web"
 
-# RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
-# https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+# Enable tags and categories for blog
+[taxonomies]
+  category = "categories"
+  tag = "tags"
 
 [params]
-images = ["img/og-image.jpg"]
+  description = "A startup studio that develops AI tools and services for the modern web"
+  images = ["img/og-image.jpg"]
+  # Social media
+  github = "https://github.com/heybe-ai"
+  twitter = "https://twitter.com/heybeai"
+  linkedin = "https://linkedin.com/company/heybe-ai"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Products"
+    url = "/products/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 5

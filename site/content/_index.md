@@ -1,20 +1,30 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
-image: /img/home-jumbotron.jpg
+title: "AI Tools for the Modern Web"
+subtitle: Building the future of web development with AI
+image: /img/hero-background.jpg
 blurb:
-    heading: Why Kaldi?
-    text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
+    heading: Why Heybe.ai?
+    text: "Heybe.ai is a startup studio focused on developing innovative AI tools and services that enhance web development and content creation. We believe that AI should empower creators and developers, making their work more efficient and impactful."
 intro:
     heading: "What we offer"
-    text: "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone."
+    text: "We create AI-powered tools that streamline web development and content creation workflows. Our solutions are designed to be intuitive, efficient, and accessible to everyone from individual creators to enterprise teams."
 products:
-    - image: img/illustrations-coffee.svg
-      text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
-    - image: /img/illustrations-coffee-gear.svg
-      text: "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop."
+    - image: /img/website-to-social.svg
+      text: "Website to Social Post - Transform any webpage into engaging social media content with our AI-powered Chrome extension. Perfect for content creators, marketers, and social media managers who want to streamline their content creation process."
+    - image: /img/coming-soon.svg
+      text: "More exciting AI tools in development! We're constantly working on new innovations to help you work smarter and create better content. Stay tuned for our upcoming releases."
 values:
-    heading: Our values
-    text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.
+    heading: Our principles
+    text: We believe in building AI tools that are ethical, transparent, and user-focused. Our commitment is to create technology that enhances human creativity rather than replacing it, while maintaining the highest standards of data privacy and security.
+features:
+    - heading: "AI-Powered"
+      text: "Leverage cutting-edge AI technology to automate and enhance your workflow"
+      icon: /img/icon-ai.svg
+    - heading: "User-Friendly"
+      text: "Intuitive interfaces that make powerful AI tools accessible to everyone"
+      icon: /img/icon-ux.svg
+    - heading: "Privacy-First"
+      text: "Strong commitment to data privacy and security in all our products"
+      icon: /img/icon-privacy.svg
 ---
 

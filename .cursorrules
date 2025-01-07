@@ -1,0 +1,254 @@
+You are an expert in building Hugo websites with Decap CMS, and deploying them to Netlify.
+
+## Project Details
+- Project Name: Heybe.ai
+- Project Description: A startup studio that develops AI tools and services for the modern web.
+- Project URL: https://heybe.ai
+- Co-founders:
+    - Cagri Sarigoz (cagri@heybe.ai)
+    - Eren Daskesen (eren@heybe.ai)
+- Current Projects:
+    - Website to Social Post: An AI-enabled Chrome extension that allows you to create social posts from the contents of the webpage you are on.
+       - [Website](https://websitetosocialpost.com/)
+       - [Chrome Extension](https://chromewebstore.google.com/detail/website-to-social-post/icobohghhhkahgjgbdcdifkdacbbopoa)
+- Website Pages:
+    - [Home](https://heybe.ai)
+    - [Products](https://heybe.ai/products)
+    - [About](https://heybe.ai/about)
+    - [Blog](https://heybe.ai/blog)
+    - [Contact](https://heybe.ai/contact)
+
+## Key Principles
+- Content-first approach with clear separation between content and presentation
+- Git-based content management using Decap CMS
+- Fast and flexible static site generation with Hugo
+- Modern authentication using Netlify Identity
+- Component-based development with reusable partials
+- Responsive and accessible design
+- Performance-optimized asset pipeline
+
+## Naming Conventions
+- Content Files: Kebab-case for all markdown files (e.g., `my-first-post.md`)
+- Layouts: Kebab-case for partial names (e.g., `_header.html`, `_footer.html`)
+- CSS Classes: BEM methodology with Tachyons utility classes
+- Images: Lowercase with descriptive names (e.g., `hero-image-home.jpg`)
+- Collections: Plural form for content types (e.g., `posts`, `products`)
+
+## Syntax and Formatting
+- Use Hugo's templating syntax consistently
+- Maintain proper indentation in templates and partials
+- Follow Go template best practices for conditionals and loops
+- Use Hugo's built-in functions for content manipulation
+- Implement proper frontmatter structure in markdown files
+- Consistent spacing and organization in config files
+
+## UI and Styling
+- Custom Tachyons implementation for utility-first CSS
+- PostCSS with cssnext and cssnano for optimization
+- Centralized variable management in `src/css/imports/_variables.css`
+- SVG icons for social media and UI elements
+- Responsive images with proper art direction
+- Accessible color contrast and typography
+- Mobile-first responsive design
+
+## Performance Optimization
+- Automated asset optimization during build
+- Lazy loading for images and heavy content
+- Proper caching strategies via Netlify
+- Minification of CSS, JS, and HTML
+- Optimized image formats and sizes
+- Critical CSS path optimization
+- Efficient Hugo partial caching
+
+## Key Conventions
+- Optimize Web Vitals (INP, LCP, CLS, FID)
+- Content organization:
+  - Use Hugo's content types and taxonomies effectively
+  - Structured content modeling in Decap CMS
+  - Clear content relationships and cross-references
+- Component architecture:
+  - Modular partial system
+  - Reusable shortcodes
+  - Flexible content blocks
+
+## Development and Build Process
+- Local Development:
+  - Use `hugo server` with live reload
+  - Local Decap CMS proxy for testing
+  - Consistent development environment via package.json
+  - Component-driven development workflow
+  - Commands:
+    ```bash
+    # Install dependencies
+    yarn install
+
+    # Start development server
+    yarn start
+
+    # Preview production build locally
+    yarn preview
+    ```
+
+- Build Process:
+  - Automated builds via Netlify
+  - Asset pipeline optimization
+  - Environment-specific configurations
+  - Proper dependency management
+  - Commands:
+    ```bash
+    # Production build
+    yarn build
+
+    # Preview build
+    yarn build:preview
+
+    # Clean dist directory
+    yarn prebuild
+    ```
+
+- Quality Checks:
+  - Automated testing with Cypress
+  - Accessibility testing
+  - Performance monitoring
+  - Cross-browser compatibility checks
+  - Commands:
+    ```bash
+    # Run linting
+    yarn lint
+
+    # Run Cypress tests in GUI mode
+    yarn cypress:open
+
+    # Run Cypress tests in CLI mode
+    yarn cypress:run
+    ```
+
+- Production Testing:
+  - Deploy previews for all changes
+  - Content preview in Decap CMS
+  - Staging environment testing
+  - User acceptance testing
+  - Commands:
+    ```bash
+    # Preview production build
+    yarn preview
+
+    # Test production build
+    yarn cypress:run
+    ```
+
+- Deployment:
+  - Continuous deployment via Netlify
+  - Branch-based preview deployments
+  - Automated rollbacks if needed
+  - Content backup and version control
+  - SSL/TLS security by default
+  - Netlify Configuration:
+    ```yaml
+    Branch to deploy: main
+    Base directory: (empty - root directory)
+    Build command: yarn build
+    Publish directory: dist
+    Functions directory: netlify/functions
+    ```
+
+## Project Structure
+```
+.
+├── site/                   # Hugo site directory
+│   ├── content/           # Markdown content
+│   ├── layouts/           # Hugo templates
+│   ├── static/            # Static assets
+│   └── hugo.toml          # Hugo configuration
+├── src/                   # Source files for assets
+├── dist/                  # Built files (generated)
+├── cypress/               # Cypress tests
+├── netlify/               # Netlify configuration
+│   └── functions/        # Serverless functions
+├── package.json           # Node.js dependencies and scripts
+├── webpack.*.js           # Webpack configuration
+└── netlify.toml          # Netlify deployment configuration
+```
+
+## Development Workflow
+1. Start Development:
+   ```bash
+   yarn install
+   yarn start
+   ```
+
+2. Make Changes:
+   - Edit content in `site/content/`
+   - Edit templates in `site/layouts/`
+   - Edit styles in `src/css/`
+   - Edit scripts in `src/js/`
+
+3. Test Changes:
+   ```bash
+   # Run tests
+   yarn cypress:run
+
+   # Check build
+   yarn build
+   ```
+
+4. Deploy:
+   - Push to main branch
+   - Netlify automatically builds and deploys
+   - Check deploy preview URLs
+   - Verify production site
+
+## Common Tasks
+- Create new page:
+  ```bash
+  hugo new content/pages/page-name.md
+  ```
+
+- Create new blog post:
+  ```bash
+  hugo new content/blog/post-name.md
+  ```
+
+- Update dependencies:
+  ```bash
+  yarn upgrade-interactive --latest
+  ```
+
+- Clear cache:
+  ```bash
+  # Remove dist directory
+  yarn prebuild
+
+  # Clear Hugo cache
+  hugo --gc
+  ```
+
+## Troubleshooting
+- Build issues:
+  ```bash
+  # Clean and rebuild
+  yarn prebuild && yarn build
+
+  # Check Hugo version
+  hugo version
+  ```
+
+- Development server issues:
+  ```bash
+  # Kill existing processes
+  pkill -f hugo
+  pkill -f webpack
+
+  # Restart development server
+  yarn start
+  ```
+
+- Dependency issues:
+  ```bash
+  # Clear yarn cache
+  yarn cache clean
+
+  # Reinstall dependencies
+  rm -rf node_modules
+  yarn install
+  ```

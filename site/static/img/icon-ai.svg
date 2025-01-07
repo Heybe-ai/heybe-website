@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Brain circuit design -->
+  <circle cx="24" cy="24" r="20" stroke="#4A5568" stroke-width="2" fill="none"/>
+  <path d="M14 24 C14 19 19 14 24 14" stroke="#4A5568" stroke-width="2" fill="none"/>
+  <path d="M34 24 C34 29 29 34 24 34" stroke="#4A5568" stroke-width="2" fill="none"/>
+  <!-- Neural network nodes -->
+  <circle cx="24" cy="14" r="3" fill="#2D3748"/>
+  <circle cx="34" cy="24" r="3" fill="#2D3748"/>
+  <circle cx="24" cy="34" r="3" fill="#2D3748"/>
+  <circle cx="14" cy="24" r="3" fill="#2D3748"/>
+  <!-- Connection lines -->
+  <line x1="21" y1="14" x2="17" y2="22" stroke="#4A5568" stroke-width="1"/>
+  <line x1="27" y1="14" x2="31" y2="22" stroke="#4A5568" stroke-width="1"/>
+  <line x1="31" y1="26" x2="27" y2="32" stroke="#4A5568" stroke-width="1"/>
+  <line x1="17" y1="26" x2="21" y2="32" stroke="#4A5568" stroke-width="1"/>
+</svg> 
