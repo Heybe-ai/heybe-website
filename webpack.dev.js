@@ -2,6 +2,7 @@ const {merge} = require("webpack-merge");
 const path = require("path");
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+require('dotenv').config();
 
 const common = require("./webpack.common");
 
@@ -14,9 +15,9 @@ module.exports = merge(common, {
   },
 
   devServer: {
-    port: process.env.PORT || 3000,
+    port: process.env.PORT || 8080,
     static: {
-      directory: path.join(process.cwd(), "./dist"),
+      directory: path.join(__dirname, "./dist"),
       watch: true
     },
     open: true,
