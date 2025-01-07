@@ -37,23 +37,18 @@ export default class HomePreview extends React.Component {
 
       <div className="bg-grey-1 pv4">
         <div className="ph3 mw7 center">
-
           <div className="flex-l mhn2-l">
             <div className="w-40-l ph2-l">
-              <h2 className="f2 b lh-title mb2">{entry.getIn(["data", "values", "heading"])}</h2>
-
-              <p>{entry.getIn(["data", "values", "text"])}</p>
+              <h2 className="f2 b lh-title mb2">{entry.getIn(["data", "about", "heading"])}</h2>
+              <p>{entry.getIn(["data", "about", "text"])}</p>
             </div>
-
             <div className="w-60-l ph2-l">
-              <img src="/img/home-about-section.jpg" alt="" className="mb3"/>
+              <img src="img/home-about-section.jpg" alt="" className="mb3"/>
             </div>
           </div>
-
           <div className="tc">
-            <a href="{{.buttonLink}}" className="btn raise">Read more</a>
+            <a href="/about" className="btn raise">Read more</a>
           </div>
-
         </div>
       </div>
 

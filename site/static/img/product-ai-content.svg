@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main editor area -->
+  <rect x="50" y="50" width="500" height="500" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  
+  <!-- Toolbar -->
+  <rect x="70" y="70" width="460" height="40" rx="4" fill="#EDF2F7"/>
+  <circle cx="90" cy="90" r="8" fill="#4A5568"/>
+  <circle cx="120" cy="90" r="8" fill="#4A5568"/>
+  <circle cx="150" cy="90" r="8" fill="#4A5568"/>
+  
+  <!-- Content area -->
+  <rect x="70" y="130" width="460" height="100" rx="4" fill="#F7FAFC"/>
+  <rect x="90" y="150" width="420" height="10" rx="2" fill="#4A5568"/>
+  <rect x="90" y="170" width="380" height="10" rx="2" fill="#4A5568"/>
+  <rect x="90" y="190" width="400" height="10" rx="2" fill="#4A5568"/>
+  
+  <!-- AI suggestions panel -->
+  <rect x="600" y="50" width="150" height="500" rx="8" fill="#F7FAFC" stroke="#E2E8F0" stroke-width="2"/>
+  <rect x="620" y="70" width="110" height="30" rx="4" fill="#4A5568"/>
+  <rect x="620" y="120" width="110" height="80" rx="4" fill="#EDF2F7"/>
+  <rect x="620" y="220" width="110" height="80" rx="4" fill="#EDF2F7"/>
+  <rect x="620" y="320" width="110" height="80" rx="4" fill="#EDF2F7"/>
+  
+  <!-- AI processing indicators -->
+  <circle cx="635" cy="85" r="6" fill="#FFFFFF"/>
+  <text x="650" y="90" font-family="Arial" font-size="12" fill="#FFFFFF">AI Suggestions</text>
+</svg> 

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Browser window -->
+  <rect x="50" y="50" width="500" height="500" rx="8" fill="#F7FAFC" stroke="#E2E8F0" stroke-width="2"/>
+  
+  <!-- Browser toolbar -->
+  <rect x="50" y="50" width="500" height="40" rx="8" fill="#EDF2F7"/>
+  <circle cx="80" cy="70" r="6" fill="#FC8181"/>
+  <circle cx="100" cy="70" r="6" fill="#F6E05E"/>
+  <circle cx="120" cy="70" r="6" fill="#68D391"/>
+  
+  <!-- Website content -->
+  <rect x="70" y="110" width="460" height="40" rx="4" fill="#E2E8F0"/>
+  <rect x="70" y="170" width="300" height="20" rx="4" fill="#E2E8F0"/>
+  <rect x="70" y="200" width="460" height="100" rx="4" fill="#E2E8F0"/>
+  
+  <!-- Social post preview -->
+  <rect x="600" y="150" width="150" height="300" rx="8" fill="#FFFFFF" stroke="#4A5568" stroke-width="2"/>
+  <rect x="620" y="170" width="110" height="80" rx="4" fill="#EDF2F7"/>
+  <rect x="620" y="270" width="110" height="10" rx="2" fill="#4A5568"/>
+  <rect x="620" y="290" width="80" height="10" rx="2" fill="#4A5568"/>
+  
+  <!-- Arrow connecting -->
+  <path d="M550 300 L580 300" stroke="#4A5568" stroke-width="2"/>
+  <path d="M580 300 L600 300" stroke="#4A5568" stroke-width="2" stroke-dasharray="4 4"/>
+</svg> 

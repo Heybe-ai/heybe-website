@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="1200" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" style="stop-color:#1A202C"/>
+      <stop offset="100%" style="stop-color:#2D3748"/>
+    </linearGradient>
+    <clipPath id="wave">
+      <path d="M0 350 Q300 300 600 350 Q900 400 1200 350 V400 H0 Z"/>
+    </clipPath>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#gradient)"/>
+  
+  <!-- Decorative wave -->
+  <path d="M0 350 Q300 300 600 350 Q900 400 1200 350" stroke="#4A5568" stroke-width="2" fill="none"/>
+  
+  <!-- Connected nodes representing team -->
+  <circle cx="400" cy="200" r="30" fill="#4A5568" fill-opacity="0.8"/>
+  <circle cx="600" cy="200" r="30" fill="#4A5568" fill-opacity="0.8"/>
+  <circle cx="800" cy="200" r="30" fill="#4A5568" fill-opacity="0.8"/>
+  
+  <!-- Connection lines -->
+  <line x1="430" y1="200" x2="570" y2="200" stroke="#4A5568" stroke-width="2"/>
+  <line x1="630" y1="200" x2="770" y2="200" stroke="#4A5568" stroke-width="2"/>
+  
+  <!-- Team icons -->
+  <path d="M385 190 L415 190 L400 170 Z" fill="#FFFFFF"/>
+  <circle cx="400" cy="205" r="8" fill="#FFFFFF"/>
+  
+  <path d="M585 190 L615 190 L600 170 Z" fill="#FFFFFF"/>
+  <circle cx="600" cy="205" r="8" fill="#FFFFFF"/>
+  
+  <path d="M785 190 L815 190 L800 170 Z" fill="#FFFFFF"/>
+  <circle cx="800" cy="205" r="8" fill="#FFFFFF"/>
+  
+  <!-- Circuit pattern -->
+  <path d="M100 100 V300" stroke="#4A5568" stroke-width="1" stroke-opacity="0.3"/>
+  <path d="M1100 100 V300" stroke="#4A5568" stroke-width="1" stroke-opacity="0.3"/>
+  <circle cx="100" cy="100" r="4" fill="#4A5568" fill-opacity="0.5"/>
+  <circle cx="100" cy="300" r="4" fill="#4A5568" fill-opacity="0.5"/>
+  <circle cx="1100" cy="100" r="4" fill="#4A5568" fill-opacity="0.5"/>
+  <circle cx="1100" cy="300" r="4" fill="#4A5568" fill-opacity="0.5"/>
+</svg> 

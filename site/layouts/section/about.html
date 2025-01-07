@@ -1,0 +1,84 @@
+{{ define "main" }}
+
+<div class="ph3 bg-off-white">
+  <!-- Hero section -->
+  <div class="mw7 center">
+    <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
+    <div class="flex-l mhn1-l">
+      <div class="w-100">
+        <img src="{{ .Params.image }}" alt="" class="db mb3">
+      </div>
+    </div>
+  </div>
+
+  <!-- Intro section -->
+  <div class="mw7 center">
+    <div class="mw6">
+      <h2 class="f2 b lh-title mb2">{{ .Params.intro.heading }}</h2>
+      <p>{{ .Params.intro.text }}</p>
+    </div>
+  </div>
+
+  <!-- Mission & Vision -->
+  <div class="mw7 center pt4">
+    <div class="flex-ns mhn2-ns mb3">
+      <div class="ph2-ns w-50-ns">
+        <h3 class="f3 b lh-title mb2">{{ .Params.mission.heading }}</h3>
+        <p>{{ .Params.mission.text }}</p>
+      </div>
+      <div class="ph2-ns w-50-ns">
+        <h3 class="f3 b lh-title mb2">{{ .Params.vision.heading }}</h3>
+        <p>{{ .Params.vision.text }}</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Team section -->
+  <div class="mw7 center pt4">
+    <h2 class="f2 b lh-title mb3">{{ .Params.team.heading }}</h2>
+    <div class="flex-ns flex-wrap mhn2-ns mb3">
+      {{ range .Params.team.members }}
+      <div class="ph2-ns w-50-ns mb4">
+        <div class="bg-white br3 pa3 shadow-5">
+          <img src="{{ .image }}" alt="{{ .name }}" class="db w-100 br3 mb3">
+          <h3 class="f4 b lh-title mb2">{{ .name }}</h3>
+          <p class="f6 gray">{{ .role }}</p>
+          <p class="mb3">{{ .bio }}</p>
+          <div class="flex">
+            <a href="{{ .linkedin }}" target="_blank" class="link mr3">LinkedIn</a>
+            <a href="{{ .github }}" target="_blank" class="link mr3">GitHub</a>
+            <a href="mailto:{{ .email }}" class="link">Email</a>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+
+  <!-- Principles section -->
+  <div class="mw7 center pt4">
+    <h2 class="f2 b lh-title mb3">{{ .Params.principles.heading }}</h2>
+    <div class="flex-ns flex-wrap mhn2-ns">
+      {{ range .Params.principles.values }}
+      <div class="ph2-ns w-50-ns mb4">
+        <h3 class="f4 b lh-title mb2">{{ .heading }}</h3>
+        <p>{{ .text }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+
+  <!-- Contact section -->
+  <div class="mw7 center pt4 pb4">
+    <h2 class="f2 b lh-title mb3">{{ .Params.contact.heading }}</h2>
+    <div class="measure-narrow">
+      <p>{{ .Params.contact.text }}</p>
+      <div class="mb3">
+        <a href="mailto:{{ .Params.contact.email }}" class="btn raise">Email us</a>
+      </div>
+      <p class="f6">{{ .Params.contact.location }}</p>
+    </div>
+  </div>
+</div>
+
+{{ end }} 

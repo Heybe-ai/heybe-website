@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <rect width="1200" height="400" fill="url(#gradient)"/>
+  
+  <!-- Circuit pattern -->
+  <path d="M100 200 H300" stroke="#4A5568" stroke-width="2" stroke-opacity="0.3"/>
+  <path d="M500 200 H700" stroke="#4A5568" stroke-width="2" stroke-opacity="0.3"/>
+  <path d="M900 200 H1100" stroke="#4A5568" stroke-width="2" stroke-opacity="0.3"/>
+  
+  <!-- Neural network nodes -->
+  <circle cx="200" cy="200" r="20" fill="#2D3748" fill-opacity="0.5"/>
+  <circle cx="600" cy="200" r="20" fill="#2D3748" fill-opacity="0.5"/>
+  <circle cx="1000" cy="200" r="20" fill="#2D3748" fill-opacity="0.5"/>
+  
+  <!-- Connecting lines -->
+  <path d="M220 200 C400 200 400 100 580 100" stroke="#4A5568" stroke-width="2" stroke-opacity="0.3"/>
+  <path d="M220 200 C400 200 400 300 580 300" stroke="#4A5568" stroke-width="2" stroke-opacity="0.3"/>
+  <path d="M620 200 C800 200 800 100 980 100" stroke="#4A5568" stroke-width="2" stroke-opacity="0.3"/>
+  <path d="M620 200 C800 200 800 300 980 300" stroke="#4A5568" stroke-width="2" stroke-opacity="0.3"/>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="1200" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" style="stop-color:#1A202C"/>
+      <stop offset="100%" style="stop-color:#2D3748"/>
+    </linearGradient>
+  </defs>
+</svg> 

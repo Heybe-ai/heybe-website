@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dashboard container -->
+  <rect width="800" height="600" fill="#F7FAFC"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="60" fill="#FFFFFF"/>
+  <rect x="40" y="20" width="100" height="20" rx="4" fill="#4A5568"/>
+  
+  <!-- Sidebar -->
+  <rect x="0" y="60" width="200" height="540" fill="#FFFFFF"/>
+  <rect x="20" y="100" width="160" height="20" rx="4" fill="#E2E8F0"/>
+  <rect x="20" y="140" width="160" height="20" rx="4" fill="#E2E8F0"/>
+  <rect x="20" y="180" width="160" height="20" rx="4" fill="#E2E8F0"/>
+  
+  <!-- Main content -->
+  <rect x="220" y="80" width="560" height="200" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <!-- Graph -->
+  <path d="M240 260 L780 260" stroke="#E2E8F0" stroke-width="1"/>
+  <path d="M240 200 L780 200" stroke="#E2E8F0" stroke-width="1"/>
+  <path d="M240 140 L780 140" stroke="#E2E8F0" stroke-width="1"/>
+  <path d="M240 260 C340 200 440 220 540 180 C640 140 740 160 780 120" stroke="#4A5568" stroke-width="2" fill="none"/>
+  
+  <!-- Stats cards -->
+  <rect x="220" y="300" width="270" height="120" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <rect x="510" y="300" width="270" height="120" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <rect x="220" y="440" width="270" height="120" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <rect x="510" y="440" width="270" height="120" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  
+  <!-- Card content -->
+  <rect x="240" y="320" width="100" height="20" rx="4" fill="#4A5568"/>
+  <rect x="240" y="350" width="230" height="10" rx="2" fill="#E2E8F0"/>
+  <rect x="240" y="370" width="180" height="10" rx="2" fill="#E2E8F0"/>
+</svg> 

@@ -1,96 +1,76 @@
 ---
-title: Our Coffee
+title: Our AI Products
 type: products
-image: /img/products-jumbotron.jpg
+image: /img/products-hero.svg
 intro:
-  heading: What we offer
+  heading: AI-Powered Tools
   description: >-
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee production,
-    roasting and brewing seriously and we’re glad to pass that knowledge to
-    anyone.
+    Heybe.ai develops innovative AI tools that enhance web development and content creation workflows. Our products are designed to be intuitive, efficient, and accessible to everyone from individual creators to enterprise teams.
   blurbs:
-    - image: /img/illustrations-coffee.svg
+    - image: /img/website-to-social.svg
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/illustrations-coffee-gear.svg
+        Website to Social Post - Transform any webpage into engaging social media content with our AI-powered Chrome extension. Perfect for content creators, marketers, and social media managers who want to streamline their content creation process.
+    - image: /img/coming-soon.svg
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/illustrations-tutorials.svg
+        AI Content Assistant - Coming Soon! Our next product will help you generate, edit, and optimize content using advanced AI models. Stay tuned for early access and updates.
+    - image: /img/coming-soon.svg
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/illustrations-meeting-space.svg
+        Smart Web Analytics - In Development! A new way to understand your website's performance using AI-driven insights and recommendations. Join our waitlist to be the first to know when it launches.
+    - image: /img/coming-soon.svg
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        AI Development Tools - On the Horizon! We're working on tools that will help developers write better code, automate testing, and optimize performance. Subscribe to our newsletter for updates.
 main:
-  heading: Great coffee with no compromises
+  heading: Empowering Creators with AI
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    At Heybe.ai, we believe in the power of AI to enhance human creativity and productivity. Our tools are built with state-of-the-art technology while maintaining a focus on user privacy and ethical AI practices.
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    alt: Website to Social Post Chrome extension in action
+    image: /img/product-website-to-social.svg
   image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    alt: AI-powered content creation interface
+    image: /img/product-ai-content.svg
   image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+    alt: Smart analytics dashboard
+    image: /img/product-analytics.svg
 testimonials:
-  - author: Elisabeth Kaurismäki
+  - author: Sarah Chen, Content Creator
     quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
+      Website to Social Post has completely transformed how I create social media content. It's like having a professional social media team at your fingertips.
+  - author: Mark Thompson, Digital Marketer
     quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
-full_image: /img/products-full-width.jpg
+      The AI-powered suggestions are incredibly accurate and save me hours of work. Heybe.ai's tools have become an essential part of my daily workflow.
+full_image: /img/products-grid.svg
 pricing:
-  heading: Monthly subscriptions
+  heading: Flexible Plans
   description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
+    Choose the plan that best fits your needs. All plans include access to our AI tools, regular updates, and dedicated support.
   plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
+    - description: Perfect for individual creators and small teams just getting started.
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans
-        - One or two varieties of beans
-      plan: Small
-      price: '50'
-    - description: Great for avid drinkers, java-loving couples and bigger crowds
+        - Website to Social Post Basic
+        - 100 AI generations per month
+        - Basic analytics
+        - Email support
+      plan: Starter
+      price: '19'
+    - description: Ideal for growing teams and professional content creators
       items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
+        - Website to Social Post Pro
+        - 500 AI generations per month
+        - Advanced analytics
+        - Priority support
+        - API access
+      plan: Professional
+      price: '49'
+    - description: Custom solutions for enterprises and large teams
       items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '?'
+        - Custom AI model training
+        - Unlimited generations
+        - Enterprise analytics
+        - Dedicated support
+        - Custom integrations
+      plan: Enterprise
+      price: 'Contact Us'
 ---
 
 

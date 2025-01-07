@@ -36,9 +36,48 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Products", name: products, widget: list, fields: [
               {label: "Image", name: "image", widget: "image"},
               {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Values", name: "values", widget: "object", fields: [
+          - {label: "Features", name: "features", widget: list, fields: [
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Text", name: "text", widget: "text"},
+              {label: "Icon", name: "icon", widget: "image"}]}
+      - file: "site/content/about/_index.md"
+        label: "About Page"
+        name: "about"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Type, name: type, widget: hidden, default: "about"}
+          - {label: Image, name: image, widget: image}
+          - {label: "Intro", name: intro, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
+          - {label: "Mission", name: mission, widget: object, fields: [
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Text", name: "text", widget: "text"}]}
+          - {label: "Vision", name: vision, widget: object, fields: [
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Text", name: "text", widget: "text"}]}
+          - {label: "Team", name: team, widget: object, fields: [
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Members", name: members, widget: list, fields: [
+                {label: "Name", name: "name", widget: string},
+                {label: "Role", name: "role", widget: string},
+                {label: "Image", name: "image", widget: image},
+                {label: "Bio", name: "bio", widget: text},
+                {label: "LinkedIn", name: "linkedin", widget: string},
+                {label: "GitHub", name: "github", widget: string},
+                {label: "Email", name: "email", widget: string}
+              ]}]}
+          - {label: "Principles", name: principles, widget: object, fields: [
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Values", name: values, widget: list, fields: [
+                {label: "Heading", name: "heading", widget: string},
+                {label: "Text", name: "text", widget: text}
+              ]}]}
+          - {label: "Contact", name: contact, widget: object, fields: [
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Text", name: "text", widget: text},
+              {label: "Email", name: "email", widget: string},
+              {label: "Location", name: "location", widget: string}]}
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
@@ -67,19 +106,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
           - {label: Full_image, name: full_image, widget: image}
           - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
-      - file: "site/content/values/_index.md"
-        label: "Values Page"
-        name: "values"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - label: Values
-            name: values
-            widget: list
-            fields:
-              - {label: Heading, name: heading, widget: string}
-              - {label: Text, name: text, widget: text}
-              - {label: Image, name: imageUrl, widget: image}
   - name: "site_settings"
     label: "Site Settings"
     files:
