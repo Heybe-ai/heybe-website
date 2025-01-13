@@ -19,7 +19,8 @@
     "build:hugo:preview": "npm run build:hugo -- -D -F",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js",
     "cypress:open": "cypress open --e2e",
-    "cypress:run": "cypress run --e2e"
+    "cypress:run": "cypress run --e2e",
+    "format": "prettier --write ."
   },
   "author": "",
   "license": "MIT",
@@ -61,7 +62,8 @@
     "webpack": "^5.64.1",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.5.0",
-    "webpack-merge": "^5.8.0"
+    "webpack-merge": "^5.8.0",
+    "prettier": "^2.8.8"
   },
   "dependencies": {
     "@babel/preset-react": "^7.17.12",

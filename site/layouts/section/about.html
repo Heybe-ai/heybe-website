@@ -6,7 +6,7 @@
     <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
     <div class="flex-l mhn1-l">
       <div class="w-100">
-        <img src="{{ .Params.image }}" alt="" class="db mb3">
+        <img src="{{ .Params.image }}" alt="" class="db mb3" />
       </div>
     </div>
   </div>
@@ -40,12 +40,14 @@
       {{ range .Params.team.members }}
       <div class="ph2-ns w-50-ns mb4">
         <div class="bg-white br3 pa3 shadow-5">
-          <img src="{{ .image }}" alt="{{ .name }}" class="db w-100 br3 mb3">
+          <img src="{{ .image }}" alt="{{ .name }}" class="db w-100 br3 mb3" />
           <h3 class="f4 b lh-title mb2">{{ .name }}</h3>
           <p class="f6 gray">{{ .role }}</p>
           <p class="mb3">{{ .bio }}</p>
           <div class="flex">
-            <a href="{{ .linkedin }}" target="_blank" class="link mr3">LinkedIn</a>
+            <a href="{{ .linkedin }}" target="_blank" class="link mr3"
+              >LinkedIn</a
+            >
             <a href="{{ .github }}" target="_blank" class="link mr3">GitHub</a>
             <a href="mailto:{{ .email }}" class="link">Email</a>
           </div>
@@ -74,11 +76,13 @@
     <div class="measure-narrow">
       <p>{{ .Params.contact.text }}</p>
       <div class="mb3">
-        <a href="mailto:{{ .Params.contact.email }}" class="btn raise">Email us</a>
+        <a href="mailto:{{ .Params.contact.email }}" class="btn raise"
+          >Email us</a
+        >
       </div>
       <p class="f6">{{ .Params.contact.location }}</p>
     </div>
   </div>
 </div>
 
-{{ end }} 
+{{ end }}

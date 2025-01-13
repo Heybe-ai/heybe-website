@@ -1,14 +1,15 @@
-table
-{
+table {
   border-radius: var(--border-radius);
   overflow: hidden;
 }
 
-td, th {
+td,
+th {
   padding: $spacing-medium;
 }
 
-th:not(:first-child), td:not(:first-child) {
+th:not(:first-child),
+td:not(:first-child) {
   text-align: right;
 }
 

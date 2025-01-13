@@ -1,21 +1,39 @@
 .link {
   text-decoration: none;
   transition: var(--hover-transition);
-  color: inherit;
+  color: var(--primary);
+  position: relative;
+
+  &:hover,
+  &:focus {
+    color: var(--black);
+    text-decoration: none;
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
 }
 
-.link:link,
-.link:visited {
-  transition: color .15s ease-in;
-}
-.link:hover   {
-  transition: color .15s ease-in;
-  text-decoration: underline;
-}
-.link:active  {
-  transition: color .15s ease-in;
-}
-.link:focus   {
-  transition: color .15s ease-in;
-  outline: 1px dotted currentColor;
+.link--underline {
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: var(--primary);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease-out;
+  }
+
+  &:hover:after,
+  &:focus:after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
 }

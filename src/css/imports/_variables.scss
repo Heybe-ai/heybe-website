@@ -1,37 +1,38 @@
 :root {
-	/* Colors */
-	--primary: rgba(255, 68, 0, 1);
-	--highlight: rgba(254, 213, 198, 1);
-	--white: rgba(255, 255, 255, 1);
-	--off-white: rgba(255, 253, 252, 1);
-	--grey-1: rgba(245, 243, 242, 1);
-	--grey-2: rgba(235, 231, 230, 1);
-	--grey-3: rgba(89, 87, 86, 1);
-	--grey-4: rgba(66, 64, 64, 1);
-	--black: rgba(43, 37, 35, 1);
+  /* Colors */
+  --primary: rgba(64, 123, 255, 1);
+  --highlight: rgba(240, 244, 255, 1);
+  --white: rgba(255, 255, 255, 1);
+  --off-white: rgba(250, 251, 254, 1);
+  --grey-1: rgba(244, 245, 247, 1);
+  --grey-2: rgba(229, 231, 235, 1);
+  --grey-3: rgba(107, 114, 128, 1);
+  --grey-4: rgba(55, 65, 81, 1);
+  --black: rgba(17, 24, 39, 1);
 
-	/* Typography */
-	--font-family: Nunito Sans, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
-	--line-height: 1.5;
+  /* Typography */
+  --font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --line-height: 1.6;
 
-	--font-size: 18px;
-	--font-size-m: 20px;
-	--font-size-l: 22px;
+  --font-size: 16px;
+  --font-size-m: 18px;
+  --font-size-l: 20px;
 
-	--body-font-weight: 400;
-	--bold-font-weight: 700;
+  --body-font-weight: 400;
+  --bold-font-weight: 600;
 
-	/* Sizing */
-	--spacing-none: 0;
-	--spacing-extra-small: .25rem;
-	--spacing-small: .5rem;
-	--spacing-medium: 1rem;
-	--spacing-large: 2rem;
-	--spacing-extra-large: 4rem;
-	--spacing-extra-extra-large: 8rem;
-	--spacing-extra-extra-extra-large: 16rem;
+  /* Sizing */
+  --spacing-none: 0;
+  --spacing-extra-small: 0.25rem;
+  --spacing-small: 0.5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 2rem;
+  --spacing-extra-large: 4rem;
+  --spacing-extra-extra-large: 8rem;
+  --spacing-extra-extra-extra-large: 16rem;
 
-	/* Miscelaneous */
-	--border-radius: .25rem;
-	--hover-transition: all 150ms ease;
+  /* Miscelaneous */
+  --border-radius: 0.5rem;
+  --hover-transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
 }

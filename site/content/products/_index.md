@@ -4,7 +4,8 @@ type: products
 image: /img/products-hero.svg
 intro:
   heading: AI-Powered Tools
-  description: Heybe.ai develops innovative and easy-to-use AI tools that enhance
+  description:
+    Heybe.ai develops innovative and easy-to-use AI tools that enhance
     web development and content creation workflows. Our products are designed to
     be intuitive, efficient and accessible to everyone from individual creators
     to enterprise teams.
@@ -51,12 +52,14 @@ testimonials:
       media content. It's like having a professional social media team at your
       fingertips.
   - author: Mark Thompson, Digital Marketer
-    quote: The AI-powered suggestions are incredibly accurate and save me hours of
+    quote:
+      The AI-powered suggestions are incredibly accurate and save me hours of
       work. Heybe.ai's tools have become an essential part of my daily workflow.
 full_image: /img/products-grid.svg
 pricing:
   heading: Flexible Plans
-  description: Choose the plan that best fits your needs. All plans include access
+  description:
+    Choose the plan that best fits your needs. All plans include access
     to our AI tools, regular updates, and dedicated support.
   plans:
     - description: Perfect for individual creators and small teams just getting started.

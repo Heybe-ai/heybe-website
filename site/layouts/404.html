@@ -1,6 +1,47 @@
 {{ define "main" }}
+<div class="flex flex-column items-center justify-center min-vh-100 ph4 tc">
+  <div class="mb4">
+    <div class="f-headline lh-solid mb3 primary">404</div>
+    <h1 class="f2 f1-l fw6 black-90 mb3">Oops! Our AI Lost This Page</h1>
+    <p class="f4 black-70 measure center mb4">Even with all our AI algorithms, we couldn't find what you're looking for. Maybe our neural networks need more training? 🤖</p>
+    
+    <div class="measure center mb4 black-60">
+      <p class="f5 mb3">Here's what might have happened:</p>
+      <ul class="list pl0 tc">
+        <li class="mb2">• The page took a coffee break ☕️</li>
+        <li class="mb2">• Our AI is still learning human URLs 🤔</li>
+        <li class="mb2">• The bits got lost in the cloud ☁️</li>
+      </ul>
+    </div>
 
-<h1>Nothing Here...</h1>
-<h3><a href="{{ "/" | relURL }}">Go Home</a></h3>
+    <a href="{{ "/" | relURL }}" class="btn btn--large no-underline">
+      Return to Homepage
+    </a>
+  </div>
 
+  <div class="f6 black-50 mt4">
+    <p>Error Code: 404 (Page Not Found) - But hey, you found our humor! 😄</p>
+  </div>
+</div>
+
+<style>
+.primary {
+  color: var(--primary);
+}
+.f-headline {
+  font-size: 6rem;
+}
+.black-90 {
+  color: rgba(0, 0, 0, 0.9);
+}
+.black-70 {
+  color: rgba(0, 0, 0, 0.7);
+}
+.black-60 {
+  color: rgba(0, 0, 0, 0.6);
+}
+.black-50 {
+  color: rgba(0, 0, 0, 0.5);
+}
+</style>
 {{ end }}

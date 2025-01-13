@@ -34,7 +34,8 @@ team:
     - name: Eren Daskesen
       role: Co-founder & CTO
       image: /img/team-eren.jpg
-      bio: Eren brings deep expertise in web development and system architecture. His
+      bio:
+        Eren brings deep expertise in web development and system architecture. His
         focus on user experience and scalability ensures our tools are both
         powerful and user-friendly.
       linkedin: https://linkedin.com/in/eren-daskesen
@@ -44,15 +45,18 @@ principles:
   heading: Our Principles
   values:
     - heading: User-Centric Design
-      text: We build easy-to-use tools that are intuitive and enhance the natural
+      text:
+        We build easy-to-use tools that are intuitive and enhance the natural
         workflow of creators and developers.
     - heading: Privacy First
       text: We prioritize user privacy and data security in every tool we create.
     - heading: Ethical AI
-      text: We develop AI solutions that augment human capabilities while maintaining
+      text:
+        We develop AI solutions that augment human capabilities while maintaining
         transparency and fairness.
     - heading: Continuous Innovation
-      text: We constantly explore new ways to improve and expand our tools based on
+      text:
+        We constantly explore new ways to improve and expand our tools based on
         user feedback and technological advances.
 contact:
   heading: Get in Touch

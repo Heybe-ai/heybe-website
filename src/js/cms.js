@@ -11,7 +11,7 @@ import AboutPreview from "./cms-preview-templates/about";
 import ContactPreview from "./cms-preview-templates/contact";
 import FooterPreview from "./cms-preview-templates/footer";
 
-CMS.registerPreviewStyle(styles, {raw: true});
+CMS.registerPreviewStyle(styles, { raw: true });
 CMS.registerPreviewTemplate("home", HomePreview);
 CMS.registerPreviewTemplate("post", PostPreview);
 CMS.registerPreviewTemplate("products", ProductsPreview);

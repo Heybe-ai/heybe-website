@@ -4,16 +4,16 @@ This is a small business template built with [Hugo](https://gohugo.io) and [Deca
 
 ## Getting started
 
-Use our deploy button to get your own copy of the repository. 
+Use our deploy button to get your own copy of the repository.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/decaporg/one-click-hugo-cms&stack=cms)
 
 This will setup everything needed for running the CMS:
 
-* A new repository in your GitHub account with the code
-* Full Continuous Deployment to Netlify's global CDN network
-* Control users and access with Netlify Identity
-* Manage content with Decap CMS
+- A new repository in your GitHub account with the code
+- Full Continuous Deployment to Netlify's global CDN network
+- Control users and access with Netlify Identity
+- Manage content with Decap CMS
 
 Once the initial build finishes, you can invite yourself as a user. Go to the Identity tab in your new site, click "Invite" and send yourself an invite.
 
@@ -50,5 +50,5 @@ Make sure you use consistent icons in terms of viewport and art direction for op
 For an icon named `icons-facebook.svg`, refer to the SVG `social-icon` partial like so:
 
 ```
-{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook" "alt" "Kaldi on Facebook") }}
+{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook" "alt" "Heybe.ai on Facebook") }}
 ```
